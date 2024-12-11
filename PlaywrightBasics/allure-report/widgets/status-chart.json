@@ -1,0 +1,1 @@
+[{"uid":"24cc7b13955c60e8","name":"@Web takeScreenshot","time":{"start":1709122589332,"stop":1709122600894,"duration":11562},"status":"passed","severity":"normal"},{"uid":"6bc20a6f2943eb3b","name":"@Web screenshotcomparison","time":{"start":1709122600901,"stop":1709122605984,"duration":5083},"status":"passed","severity":"normal"}]

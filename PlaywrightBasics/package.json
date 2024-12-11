@@ -1,0 +1,24 @@
+{
+  "name": "playwrightbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Webtest": "npx playwright test grep=@Web",
+    "regression": "npx playwright test",
+    "anotherconfig": "npx playwright test /tests/openBrowser --config playwright.config1.js --project=chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.10.5",
+    "allure-commandline": "^2.27.0",
+    "allure-playwright": "^2.13.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "exceljs": "^4.4.0"
+  }
+}
